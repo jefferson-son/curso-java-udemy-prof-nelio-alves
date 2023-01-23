@@ -14,11 +14,10 @@ public class Main {
 			sumNumbers += x;
 			System.out.println("Digite novamente: ");
 			x = sc.nextInt();
-			
 		}
-		
+
 		System.out.println("Soma dos números: " + sumNumbers);
+
 		sc.close();
 	}
-
 }
