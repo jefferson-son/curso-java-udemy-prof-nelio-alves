@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Post {
 
-	public static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+	public static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
 	
 	private LocalDateTime moment;
 	private String title;
